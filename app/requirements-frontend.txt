@@ -1,0 +1,5 @@
+# PhysicsAgent — Frontend dependencies (Streamlit only)
+# Install separately from the backend: pip install -r requirements-frontend.txt
+
+streamlit==1.45.1
+requests==2.32.3

@@ -1,0 +1,28 @@
+# PhysicsAgent — dependencies
+# Python 3.11+ recommended
+#
+# PINNING STRATEGY:
+#   Only the packages we directly import are pinned (major.minor).
+#   langchain-core is intentionally NOT pinned here — it is a transitive
+#   dependency whose required version differs between langchain and
+#   langchain-openai. Letting pip resolve it avoids version conflicts.
+ 
+# Core LLM & agent framework
+langchain==0.3.25
+langchain-openai==0.3.18
+langgraph==0.4.5
+ 
+# arXiv paper retrieval
+arxiv==2.2.0
+ 
+# API layer
+fastapi==0.115.12
+uvicorn[standard]==0.34.2
+pydantic==2.11.4
+ 
+# Environment variable management
+python-dotenv==1.1.0
+ 
+# HTTP client (used internally by openai sdk)
+httpx==0.28.1
+ 
