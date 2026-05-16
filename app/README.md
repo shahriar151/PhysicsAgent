@@ -15,8 +15,8 @@ Built with LangGraph, LangChain, FastAPI, and GPT-4o-mini. Supports multi-turn c
 
 | Service | URL |
 |---|---|
-| Streamlit Frontend | *(coming soon)* |
-| FastAPI Docs | *(coming soon)* |
+| Streamlit Frontend | https://shahriar151-physicsagent.streamlit.app |
+| FastAPI Docs | https://physicsagent-api-7jdn.onrender.com/docs |
 
 ---
 
