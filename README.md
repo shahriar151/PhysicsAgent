@@ -53,7 +53,7 @@ uvicorn app.main:app --reload
 
 ## Author
 
-**Shahriar Mahmood** —
+**Shahriar Mahmood**
 
 ---
 
